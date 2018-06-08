@@ -1,4 +1,6 @@
-
+html, body{
+    height:100%;
+}
 body {
     color: #fff;
     text-align: justify;
@@ -8,18 +10,19 @@ body {
    
 }
 
+
 .headingthings {
     text-align: center;
 }
 
-.container {
-    padding: 0px;
-    
-  
+body{
+    padding-bottom:60px;
 }
 
+
+
 #score{
-    box-shadow: 3px, 4px, 5px, 6px, #eee;
+    box-shadow: 3, 4, 5, 6, #eee;
     position: static;
    
 }
@@ -32,7 +35,7 @@ body {
     position: absolute;
     text-align: center;
    
-    top: 25%;
+    top: 42%;
     left:0%;
     z-index: 5;
 }
@@ -40,7 +43,7 @@ body {
 #blanks2{
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 60%;
     left:0%;
     z-index: 5;
 }
@@ -66,9 +69,14 @@ h1 {
     line-height: 49px;
 
 }
-
+.container{
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
 footer {
-    padding: 20px 0;
+    position: relative;
     font-size: 12px;
     color: #ccc;
     text-align: center;
@@ -77,6 +85,7 @@ footer {
     width: 100%;
     margin-top: 20px;
     bottom: 0;
+    height:60px;    
 }
 
 .card {
@@ -85,6 +94,7 @@ footer {
 }
 
 #animation {
+    padding:40px;
     text-align: center;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -128,6 +138,9 @@ footer {
 }
 
 
+nav{
+    width:100%;
+}
   
   #my-word li {
     position: relative;
