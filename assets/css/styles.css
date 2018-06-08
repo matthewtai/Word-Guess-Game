@@ -1,9 +1,11 @@
+
 body {
     color: #fff;
     text-align: justify;
     line-height: 34px;
     background: url("../images/background.png");
-    background-size: 80%;
+    background-size: 90%;
+   
 }
 
 .headingthings {
@@ -11,7 +13,49 @@ body {
 }
 
 .container {
-    padding: 40px;
+    padding: 0px;
+    
+  
+}
+
+#score{
+    box-shadow: 3px, 4px, 5px, 6px, #eee;
+    position: static;
+   
+}
+
+#word-blanks{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+#blanks1{
+    position: absolute;
+    text-align: center;
+   
+    top: 25%;
+    left:0%;
+    z-index: 5;
+}
+
+#blanks2{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left:0%;
+    z-index: 5;
+}
+
+.blanksfont{
+    font-family: 'Yesteryear', cursive;
+    color: black;
+    font-size: 3em;
+
+}
+
+
+
+h1, p, h2, h3{
+    font-family: 'Yesteryear', cursive;
 }
 
 h1 {
@@ -20,6 +64,7 @@ h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
+
 }
 
 footer {
@@ -35,7 +80,7 @@ footer {
 }
 
 .card {
-    background-color: #f38530a9;
+    background-color: #f385309f;
     text-align: center;
 }
 
