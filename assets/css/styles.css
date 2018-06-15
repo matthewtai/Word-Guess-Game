@@ -5,8 +5,11 @@ body {
     color: #fff;
     text-align: justify;
     line-height: 34px;
-    background: url("../images/background.png");
-    background-size: 90%;
+    background: url(../images/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
    
 }
 
@@ -55,7 +58,9 @@ body{
 
 }
 
-
+h2{
+    font-size:1em;
+}
 
 h1, p, h2, h3{
     font-family: 'Yesteryear', cursive;
@@ -96,12 +101,12 @@ footer {
 #animation {
     padding:40px;
     text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
     /* Firefox */
-    -webkit-animation: fadein 2s;
+    -webkit-animation: fadein 4s;
     /* Safari and Chrome */
-    -o-animation: fadein 2s;
+    -o-animation: fadein 4s;
     /* Opera */
 }
 
